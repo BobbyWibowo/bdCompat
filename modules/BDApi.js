@@ -249,7 +249,7 @@ class BdApi {
         (document.querySelector(DiscordElements.chat) ? document.querySelector(DiscordElements.chat).offsetHeight + 20 : 80) + 'px'
       )
 
-      document.querySelector('#app-mount > div[class^="app-"]').appendChild(toastWrapper)
+      document.querySelector('#app-mount > div[class^="app"]').appendChild(toastWrapper)
 
       return toastWrapper
     }
